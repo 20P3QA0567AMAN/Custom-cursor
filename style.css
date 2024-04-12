@@ -1,0 +1,27 @@
+html,body {
+    height:100%;
+    width:100%;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, orange, yellow, orange);
+    width: 100%;
+    height: 100%;
+}
+#cursor {
+    height: 70px;
+    width: 70px;
+    background-color: rgb(244, 10, 10);
+    border-radius: 50px;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all ease;
+    box-shadow: 30px 30px 80px rgb(244, 10, 10);
+}
+h1 {
+    font-size: 10rem;
+    color: black;
+}
+
